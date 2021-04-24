@@ -187,6 +187,7 @@ class Calculadora extends Component {
   render() {
     return (
       <main>
+        <h1 className="main-title">Calculadora</h1>
         {/* Suma */}
         <section>
           <h1>Suma para dos números reales</h1>

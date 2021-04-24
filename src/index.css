@@ -19,11 +19,34 @@ code {
   font-family: "Inter", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(118.77deg, #fd1f1f -52.79%, #ff844b 98.54%);
+  border-radius: 1rem;
+}
+
+::selection {
+  background: #ff844b;
+  color: white;
+}
+
 main {
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
 }
 
 section {
@@ -35,7 +58,7 @@ section {
   padding: 2rem;
   margin: 0 auto;
   margin-bottom: 1rem;
-  max-width: 500px;
+  max-width: 475px;
   width: 100%;
 }
 
